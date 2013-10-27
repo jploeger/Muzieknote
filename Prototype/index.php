@@ -1,33 +1,15 @@
-<!doctype html>
-<html>
-	<head>
-		<!-- (c) Muzieknote -->
-		<meta charset="utf-8">
-		<title>Muzieknote - Muziek en verhalen verbindt mensen</title>
-		<meta name="description" content="<? bloginfo( 'description' ); ?>">
-		<meta name="author" content="Jurgen Ploeger en Jon Koops">
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
-		<link rel="icon" href="images/favicon.ico">
-		<link rel="apple-touch-icon" href="">
-		<!-- Include styles -->
-		<link rel="stylesheet" href="styles/reset.css">
-		<link rel="stylesheet" href="styles/app.css">
-		<link rel="stylesheet" type="text/css" href="styles/component.css" />
-		<!-- Include scripts -->
-		<script src="scripts/modernizr.custom.js"></script>
-	</head>
-	<body>
+<?php include "header.php"; ?>
 
 		<div id="st-container" class="st-container">
 
 			<aside class="st-menu chat">
-				<h4>Reacties op</h4>
-				<h5>Coldplay - Paradise</h5>
+				<a href="#coldplay"><h4>Reacties op</h4>
+				<h5>Titel</h5></a>
 			</aside>
 
 			<aside class="st-menu heart">
 				<h4>## buren houden van</h4>
-				<h5>Coldplay - Paradise</h5>
+				<h5>Titel</h5>
 			</aside>
 
 			<div class="st-pusher">
@@ -35,28 +17,27 @@
 					<div class="st-content-inner">
 
 						<nav class="main-nav" role="navigation">
-							<div id="logo-icon">
-								<a href="/index.html"><img src="images/logo-icon@x2.png" alt="Muzieknote logo icon"></a>
-							</div>
+							<a href="/index.php" id="logo-icon"><img src="images/logo-icon@x2.png" alt="Muzieknote logo icon"></a>
 							<ul>
-								<li><a href="/index.html">Home</a><li>
-								<li><a href="/evenementen.html">Evenementen</a><li>
-								<li><a href="/request.html">Nummer aanvragen</a><li>
+								<li><a href="/index.php">Home</a><li>
+								<li><a href="/evenementen.php">Evenementen</a><li>
+								<li><a href="/aanvragen.php">Nummer aanvragen</a><li>
 							</ul>
 							<input type="search" placeholder="Zoeken...">
 						</nav>
+
 						<header class="site-header">
 							<img class="site-header-logo" src="images/muzieknote-logo@x2.png" alt="Muzieknote logo">
 							<div id="introduction">
 								<p>
 								Muziek & verhalen verbindt mensen
 								</p>
-								<button class="orange" data-effect="st-effect-1">Login</button>
-								<a href="registreren.html"><button class="black">Registreren</button></a>
+								<a href="inloggen.php"><button class="orange">Inloggen</button></a>
+								<a href="registreren.php"><button class="black">Registreren</button></a>
 							</div>
 						</header>
 
-						<section class="overview-requests">
+						<section id="coldplay" class="overview-requests">
 
 							<article>
 								<div class="article-left">
@@ -68,7 +49,7 @@
 											</time>
 										</div>
 										<div class="column-middle">
-											<h2><a href="#">Coldplay - Paradise</a></h2>
+											<h2><a href="#coldplay">Coldplay - Paradise</a></h2>
 											<h3>Aangevraagd door: <a href="#">Nicole Smith, 21 jaar</a></h3>
 										</div>
 									</header>
@@ -102,7 +83,7 @@
 										<div class="main clearfix">
 											<div id="st-trigger-effects" class="column">
 												<button class="block" data-effect="chat">
-													<img src="images/chat-icon@x2.png" alt="Chat icon">
+													<a href="#coldplay"><img src="images/chat-icon@x2.png" alt="Chat icon"> </a>
 												</button>
 												<button class="block" data-effect="heart">
 													<img src="images/heart-icon@x2.png" alt="Heart icon">
@@ -177,8 +158,4 @@
 			</div><!-- /st-pusher -->
 		</div><!-- /st-container -->
 
-		<script src="scripts/classie.js"></script>
-		<script src="scripts/sidebarEffects.js"></script>
-
-	</body>
-</html>
+<?php include "footer.php"; ?>
