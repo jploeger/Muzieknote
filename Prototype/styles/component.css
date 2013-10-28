@@ -41,7 +41,7 @@
 	z-index: 100;
 	padding: 3%;
 	visibility: hidden;
-	width: 350px;
+	width: 33.33%;
 	height: 100%;
 	overflow-y: scroll;
 	border-left: 1px solid #bcbbb2;
@@ -49,11 +49,49 @@
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
 }
+.st-menu .comment {
+	margin-top: 30px;
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	line-height: 180%;
+}
+.st-menu .comment p {
+	margin-bottom: 20px;
+}
+.st-menu .user {
+	float: left;
+	margin-right: 15px;
+	width: 50px;
+	height: 50px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background: #3993d9;
+	-webkit-box-shadow: inset 0 0 0 1px rgba(136,136,136,.13);
+	-moz-box-shadow: inset 0 0 0 1px rgba(136,136,136,.13);
+	box-shadow: inset 0 0 0 1px rgba(136,136,136,.13);
+}
+.st-menu .meta {
+	float: left;
+	width: 100%;
+	color: #555;
+	font-size: 18px;
+	font-family: "bentonsanscond-medium", Helvetica, Arial, sans-serif, system;
+	line-height: 130%;
+	margin-bottom: 15px;
+}
+.st-menu .meta a {
+	color: #d74119;
+}
+.st-menu .meta a:hover {
+	color: #b51101;
+}
 
 /* Effect: Slide along */
 .chat.st-menu-open .st-pusher, .heart.st-menu-open .st-pusher {
-	-webkit-transform: translate3d(-350px,0,0);
-	transform: translate3d(-350px, 0, 0);
+	-webkit-transform: translate3d(-33.33%,0,0);
+	transform: translate3d(-33.33%, 0, 0);
 	z-index: 999;
 }
 .chat.st-menu-open section, .heart.st-menu-open section {
@@ -84,5 +122,5 @@
 /* Fallback */
 .no-csstransforms3d .st-pusher,
 .no-js .st-pusher {
-	padding-right: 350px;
+	padding-right: 33.33%;
 }

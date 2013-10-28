@@ -3,8 +3,61 @@
 		<div id="st-container" class="st-container">
 
 			<aside class="st-menu chat">
-				<a href="#coldplay"><h4>Reacties op</h4>
-				<h5>Titel</h5></a>
+				<a href="#coldplay"><h4>Plaats een berichtje</h4>
+				<h5>Queen - Bohemian Rhapsody</h5></a>
+				<div class="comment">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith</a><br/>
+						20 jaar
+					</div>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<p>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="comment">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith</a><br/>
+						20 jaar
+					</div>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="comment">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith</a><br/>
+						20 jaar
+					</div>
+					<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
 			</aside>
 
 			<aside class="st-menu heart">
@@ -27,7 +80,6 @@
 						</nav>
 
 						<header class="site-header">
-							<img class="site-header-logo" src="images/muzieknote-logo@x2.png" alt="Muzieknote logo">
 							<div id="introduction">
 								<p>
 								Muziek & verhalen verbindt mensen
@@ -40,6 +92,7 @@
 						<section id="coldplay" class="overview-requests">
 
 							<article>
+								<iframe class="video-canvas" src="//www.youtube.com/embed/fJ9rUzIMcZQ?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>
 								<div class="article-left">
 									<header>
 										<div class="column-left">
@@ -49,7 +102,7 @@
 											</time>
 										</div>
 										<div class="column-middle">
-											<h2><a href="#coldplay">Coldplay - Paradise</a></h2>
+											<h2><a href="#coldplay">Queen - Bohemian Rhapsody</a></h2>
 											<h3>Aangevraagd door: <a href="#">Nicole Smith, 21 jaar</a></h3>
 										</div>
 									</header>
