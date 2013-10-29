@@ -49,12 +49,50 @@
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
 }
+.st-menu input[type=text] {
+	width: 100%;
+	height: 20%;
+	margin: 20px 0;
+	float: left;
+	padding-left: 20px;
+	outline: none;
+	border: 1px solid #bcbbb2;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #FFF;
+	color: #888;
+	font-size: 16px;
+	line-height: 0;
+	font-family: "georgia", Helvetica, Arial, sans-serif, system;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+.st-menu .comment:first-of-type {
+	margin-top: 50px;
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	line-height: 180%;
+}
 .st-menu .comment {
 	margin-top: 30px;
 	float: left;
 	width: 100%;
 	font-size: 16px;
 	line-height: 180%;
+}
+.st-menu .heart {
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+}
+.st-menu .heart:first-of-type {
+	margin-top: 30px;
+	float: left;
+	width: 100%;
 }
 .st-menu .comment p {
 	margin-bottom: 20px;

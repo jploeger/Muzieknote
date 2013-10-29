@@ -3,14 +3,16 @@
 		<div id="st-container" class="st-container">
 
 			<aside class="st-menu chat">
-				<a href="#coldplay"><h4>Plaats een berichtje</h4>
-				<h5>Queen - Bohemian Rhapsody</h5></a>
+				<a href="#coldplay"><h4>Reageer op het verhaal van</h4>
+				<h5>Nicole Smith</h5></a>
+				<input id="textfield" type="text" />
+				<a href="#"><button class="orange">Plaats bericht</button></a>
 				<div class="comment">
 					<div class="meta">
 						<div class="user">
 						</div>
-						<a href="#">Nicole Smith</a><br/>
-						20 jaar
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						50 minuten geleden
 					</div>
 					<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -30,8 +32,8 @@
 					<div class="meta">
 						<div class="user">
 						</div>
-						<a href="#">Nicole Smith</a><br/>
-						20 jaar
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
 					</div>
 					<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -46,8 +48,8 @@
 					<div class="meta">
 						<div class="user">
 						</div>
-						<a href="#">Nicole Smith</a><br/>
-						20 jaar
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						3 dagen geleden
 					</div>
 					<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -61,8 +63,120 @@
 			</aside>
 
 			<aside class="st-menu heart">
-				<h4>## buren houden van</h4>
-				<h5>Titel</h5>
+				<a href="#coldplay"><h4>## buren houden van</h4>
+				<h5>Queen - Bohemian Rhapsody</h5></a>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
+				<div class="heart">
+					<div class="meta">
+						<div class="user">
+						</div>
+						<a href="#">Nicole Smith, 20 jaar</a><br/>
+						1 dag geleden
+					</div>
+				</div>
 			</aside>
 
 			<div class="st-pusher">
