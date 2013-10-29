@@ -4,7 +4,7 @@
 
 			<aside class="st-menu chat">
 				<h4>Reacties op</h4>
-				<h5>Titel</h5>
+				<h5>Halloween thema</h5>
 			</aside>
 
 			<aside class="st-menu heart">
@@ -24,6 +24,11 @@
 								<li><a href="/aanvragen.php">Nummer aanvragen</a><li>
 							</ul>
 							<input type="search" placeholder="Zoeken...">
+							<div class="account">
+								<div class="user">
+								</div>
+								Nicole Smith <img class="dropdown-icon" src="images/account-icon@x2.png">
+							</div>
 						</nav>
 
 						<section class="overview-requests">

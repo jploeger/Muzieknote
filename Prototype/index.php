@@ -7,6 +7,9 @@
 				<h5>Nicole Smith</h5></a>
 				<input id="textfield" type="text" />
 				<a href="#"><button class="orange">Plaats bericht</button></a>
+				<div class="char-left">
+					### tekens over
+				</div>
 				<div class="comment">
 					<div class="meta">
 						<div class="user">
@@ -191,12 +194,17 @@
 								<li><a href="/aanvragen.php">Nummer aanvragen</a><li>
 							</ul>
 							<input type="search" placeholder="Zoeken...">
+							<div class="account">
+								<div class="user">
+								</div>
+								Nicole Smith <img class="dropdown-icon" src="images/account-icon@x2.png">
+							</div>
 						</nav>
 
 						<header class="site-header">
 							<div id="introduction">
 								<p>
-								Muziek & verhalen verbindt mensen
+								Muziek &amp; verhalen verbindt mensen
 								</p>
 								<a href="inloggen.php"><button class="orange">Inloggen</button></a>
 								<a href="registreren.php"><button class="black">Registreren</button></a>
@@ -206,7 +214,7 @@
 						<section id="coldplay" class="overview-requests">
 
 							<article>
-								<iframe class="video-canvas" src="//www.youtube.com/embed/fJ9rUzIMcZQ?autoplay=1&controls=0&showinfo=0&rel=0" frameborder="0"></iframe>
+								<iframe class="video-canvas" src="//www.youtube.com/embed/fJ9rUzIMcZQ?controls=0&showinfo=0&rel=0" frameborder="0"></iframe>
 								<div class="article-left">
 									<header>
 										<div class="column-left">

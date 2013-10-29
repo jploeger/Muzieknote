@@ -8,6 +8,11 @@
 				<li><a href="/aanvragen.php">Nummer aanvragen</a><li>
 			</ul>
 			<input type="search" placeholder="Zoeken...">
+			<div class="account">
+				<div class="user">
+				</div>
+				Nicole Smith <img class="dropdown-icon" src="images/account-icon@x2.png">
+			</div>
 		</nav>
 
 		<header class="header-search">

@@ -11,7 +11,6 @@
 		</nav>
 
 		<header class="site-header">
-			<img class="site-header-logo" src="images/muzieknote-logo@x2.png" alt="Muzieknote logo">
 			<div id="inloggen">
 				<h3>E-mail adres</h3>
 				<input type="search" placeholder="email@domein.nl">

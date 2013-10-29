@@ -142,7 +142,7 @@ button:last-of-type {
 }
 #inloggen {
 	margin: 0 auto;
-	padding-top: 100px;
+	padding-top: 200px;
 	width: 50%;
 	text-align: left;
 }
@@ -247,6 +247,33 @@ button:last-of-type {
 	-moz-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+.main-nav .account {
+	margin-top: 10px;
+	margin-right: 3%;
+	float: right;
+	color: #888;
+	font-size: 20px;
+	line-height: 50px;
+	font-family: "bentonsanscond-medium", Helvetica, Arial, sans-serif, system;
+}
+.main-nav .dropdown-icon {
+	width: 10px;
+	height: 5px;
+	margin-left: 5px;
+}
+.main-nav .account .user {
+	margin-right: 10px;
+	float: left;
+	width: 40px;
+	height: 40px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #3993d9;
+	-webkit-box-shadow: inset 0 0 0 1px rgba(136,136,136,.13);
+	-moz-box-shadow: inset 0 0 0 1px rgba(136,136,136,.13);
+	box-shadow: inset 0 0 0 1px rgba(136,136,136,.13);
 }
 .header-search input[type=search]:focus, #inloggen input[type=search]:focus {
 	background-color: #FFF;
